@@ -1,0 +1,11 @@
+# Archivos temporales de Arduino IDE
+*.tmp
+*.bak
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
