@@ -35,12 +35,16 @@ Sigue estos pasos para poner en marcha tu sistema de escalera inteligente:
 1.  **Clona el Repositorio:** Descarga el código a tu máquina local.
 2.  **Abre en Arduino IDE:** Abre el archivo `EscaleraInteligente.ino` con el Arduino IDE.
 3.  **Instala Librerías:** Asegúrate de tener instaladas las siguientes librerías  y gestor de placas en el IDE de arduino.
+
 **Gestor de Placas** del Arduino IDE:
-    * `esp32 de Espressif`
+    
+    esp32 de Espressif`
+
+    
 **Gestor de Librerías** del Arduino IDE:
-    * `Arduinojson`
-    * `AsyncTCP`
-    * `ArduinoOTA`
+   
+    Arduinojson
+    
 4.  **modifica `Token.h`:** En la **misma carpeta** que `EscaleraInteligente.ino`, modifica el archivo llamado `Token.h`. Este archivo debe contener tus credenciales de red y OTA, siguiendo el formato del ejemplo a continuación.
 5.  **Compila y Sube:** Selecciona tu placa ESP32 (por ejemplo, "ESP32C3 Dev Module") y el puerto COM correcto, luego compila y sube el código a tu ESP32.
 
@@ -57,11 +61,6 @@ const char* ssid = "casajuan";        // Reemplaza con el SSID de tu red WiFi
 const char* password = "12345"; // Reemplaza con la contraseña de tu red WiFi
 
 // Configuración para Actualizaciones OTA
+
 const char* ota_name = "esp32-c3-Escalera"; // Nombre para identificar el dispositivo en la red para OTA
 const char* ota_password = "123456"; // Contraseña para acceder a las actualizaciones OTA
-
-
-
-
-
-
